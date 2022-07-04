@@ -1,0 +1,61 @@
+#main{
+    display: flex;
+    
+}
+
+#filter{
+    border: 3px solid black;
+    width: 200px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#shoesCard{
+    margin-left: 25px;
+    display: grid;
+    gap: 15px;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+}
+img{
+    width: 250px;
+    height: 280px;
+}
+
+.card{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+  }
+  
+  #logo{
+    width: 70px;
+    height: 50px;
+  }
+  
+  #btn{
+    background: black;
+    color: white;
+    text-decoration: none;
+  }
+
+#loginPage{
+    margin: auto;
+    width: 300px;
+  }
+
+  #SingleShoe{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+  }
